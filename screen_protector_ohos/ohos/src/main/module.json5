@@ -1,0 +1,22 @@
+{
+  "module": {
+    "name": "screen_protector_ohos",
+    "type": "har",
+    "deviceTypes": [
+      "default",
+      "tablet"
+    ],
+    "requestPermissions": [
+      {
+        "name": "ohos.permission.PRIVACY_WINDOW",
+        "usedScene": {
+          "abilities": [
+            "EntryAbility"
+          ],
+          "when": "inuse"
+        },
+        "reason": "$string:app_name"
+      }
+    ]
+  }
+}
